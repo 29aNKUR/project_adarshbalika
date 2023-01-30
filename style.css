@@ -5,6 +5,7 @@ body{
     font-family: 'Roboto', sans-serif;
     /* font-family: 'The Nautigal', cursive; */
     /* color:red; */
+    margin:0px;
 }
 
 hr{
@@ -112,6 +113,7 @@ h2{
 }
 
 .hero .hero-heading{
+    text-align:center;
     padding-top:1rem;
     color:var(--dark-grey);
 }
@@ -132,4 +134,22 @@ h2{
 
 .ow{
      background-color:var(--off-white);
+}
+
+/** footers **/
+
+.footer{
+    background-color:var(--primary-color);
+    padding: 2rem;
+    text-align:center;
+    color:white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color:white;
+}
+
+.footer ul{
+    padding-inline-start:0px;
 }
